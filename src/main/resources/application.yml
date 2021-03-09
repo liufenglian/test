@@ -1,0 +1,21 @@
+spring:
+  datasource:
+    name: test
+    url: jdbc:mysql://39.107.111.94:3306/test
+    username: root
+    password: 123456
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+server:
+  port: 8080
+  servlet:
+    context-path: /api/
+
+mybatis:
+  mapper-locations: classpath*:mapper/*.xml  #配置映射文件
+  type-aliases-package: com.example.test.controller.user.entity #配置实体类
+
+
+
+
+
