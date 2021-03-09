@@ -7,7 +7,7 @@ spring:
     driver-class-name: com.mysql.cj.jdbc.Driver
 
 server:
-  port: 80801
+  port: 8080
   servlet:
     context-path: /api/
 
