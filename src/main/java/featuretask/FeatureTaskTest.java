@@ -13,7 +13,7 @@ public class FeatureTaskTest {
             public Integer call() throws Exception {
                 int sum = 1;
                 System.out.println(Thread.currentThread().getName() + Thread.currentThread().getState());
-                System.out.println("AAAA");
+                System.out.println("BBB");
                 for (long i = 1; i < 1000000000L; i++) {
                     sum++;
                 }
